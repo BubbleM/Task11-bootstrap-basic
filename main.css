@@ -6,6 +6,17 @@
     z-index: 99;
 }
 
+.container-wrapper {
+    margin-top: 40px;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.container-wrapper img {
+    height: 140px;
+    width: 140px;
+}
+
 @media (min-width: 1200px){
     .navbar-wrapper {
         margin: 20px 60px;
