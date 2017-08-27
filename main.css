@@ -12,12 +12,12 @@
     padding: 0 50px;
 }
 
-.container-wrapper img {
+.container-wrapper .section1 img {
     height: 140px;
     width: 140px;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     .navbar-wrapper {
         margin: 20px 60px;
     }
@@ -30,17 +30,34 @@
 }
 
 @media (max-width: 767px) {
-    .carousel-inner .item img{
+    .carousel-inner .item img {
         height: 270px;
     }
+
     .carousel-caption {
         text-align: center;
         margin: 0;
     }
+
     .carousel-caption p {
         display: none;
     }
+
     .carousel-caption h1 {
         font-size: 22px;
     }
+}
+
+.section2 {
+    text-align: left;
+    margin-top: 10%;
+}
+
+.section2 span {
+    color: gray;
+}
+
+.section2 p {
+    font-size: 18px;
+    line-height: 1.5
 }
