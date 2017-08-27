@@ -1,0 +1,35 @@
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+@media (min-width: 1200px){
+    .navbar-wrapper {
+        margin: 20px 60px;
+    }
+}
+
+.carousel-caption {
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: -60px;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .item img{
+        height: 270px;
+    }
+    .carousel-caption {
+        text-align: center;
+        margin: 0;
+    }
+    .carousel-caption p {
+        display: none;
+    }
+    .carousel-caption h1 {
+        font-size: 22px;
+    }
+}
