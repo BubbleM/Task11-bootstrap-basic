@@ -48,7 +48,14 @@
     }
 }
 
-.section2 {
+@media (max-width: 991px) {
+    .section2 img{
+        width: 140px;
+        height: 140px;
+    }
+}
+
+.section2 .texts {
     text-align: left;
     margin-top: 10%;
 }
